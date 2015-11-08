@@ -1,4 +1,4 @@
 class Project < ActiveRecord::Base
-  # has_many :documents
-  # has_many :documents
+  mount_uploader :document, DocumentUploader
+  
 end

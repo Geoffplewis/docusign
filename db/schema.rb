@@ -11,12 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151108030008) do
+ActiveRecord::Schema.define(version: 20151108034339) do
 
-  create_table "projects", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string   "name"
-  end
+# Could not dump table "projects" because of following NoMethodError
+#   undefined method `[]' for nil:NilClass
 
 end
