@@ -10,7 +10,7 @@ gem 'jbuilder'
 gem 'sdoc', group: :doc
 gem 'bootstrap-sass', '~> 3.2.0'
 gem 'autoprefixer-rails'
-gem 'carrierwave'
+gem 'carrierwave', github: 'carrierwaveuploader/carrierwave'
 
 
 group :development, :test do

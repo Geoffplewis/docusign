@@ -1,0 +1,25 @@
+In progress:
+Line item budget
+Adjustments
+Cody finish RFIs
+Bid form revisions 
+
+week after:
+Cody update homepage
+
+Straightforward and helpful
+Act as bidder
+Fix price per SF column 
+Diff for updated nums for SPs
+Go directly to one bid
+Put back the historical changes when viewing revised bids 
+Visual cleanup 
+Improve bid submitted email 
+Allow for HB team to add templates 
+
+
+Hard and one day helpful
+
+Bid leveling messaging 
+Unit price column
+

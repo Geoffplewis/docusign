@@ -5,6 +5,9 @@
     <%= form_for(@project) do |f| %>
       <%= f.label :name %>
       <%= f.text_field :name %>
+      
+      <%= f.file_field :documents, multiple: true %>
+      
 
       <%= f.submit "Update", class: "btn btn-primary" %>
     <% end %>

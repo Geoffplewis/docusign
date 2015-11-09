@@ -1,5 +1,5 @@
 class AddDocumentToUsers < ActiveRecord::Migration
   def change
-    add_column :projects, :document, :string
+    add_column :projects, :documents, :text
   end
 end
