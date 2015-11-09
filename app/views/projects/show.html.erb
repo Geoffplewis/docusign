@@ -1,8 +1,15 @@
 <h1><%= @project.name %></h1>
-<table>
-  <tr>Documents</tr>
+
+<table style="table">
+  <tr>
+    <td>Documents</td>
+  </tr>
   <%- @project.documents.each do |d| %>
-      
+      <tr>
+        <td><%= d.name %></td>
+      </tr>
   <%- end %>
 </table>
+
+<%= link_to "Add Document", new_project_document_path(@project), :class => "button"  %>
 <%= link_to "Edit Project", edit_project_path, :class => "button"  %>
